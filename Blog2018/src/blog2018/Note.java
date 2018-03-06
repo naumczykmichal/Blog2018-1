@@ -20,8 +20,8 @@ public class Note {
     public String toString()
     {
         StringBuilder sb = new StringBuilder();
-        sb.append("WPIS");
-        sb.append("\ntytuł: "+title);
+        
+        sb.append("\n\ntytuł: "+title);
         sb.append("\ntreść: "+content);
         sb.append("\nkomentarze: "+comments);
         sb.append("\n");

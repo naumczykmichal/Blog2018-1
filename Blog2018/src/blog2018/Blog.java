@@ -9,8 +9,7 @@ public class Blog {
 
     public Blog(String title) {
         this.title = title;
-    }
-    
+    }    
     
     public void add(Note note)
     {
