@@ -16,6 +16,10 @@ public class Note {
     {
         comments.add(comment);
     }
+
+    public List<Comment> getComments() {
+        return comments;
+    }
     
     public String toString()
     {
@@ -26,5 +30,9 @@ public class Note {
         sb.append("\nkomentarze: "+comments);
         sb.append("\n");
         return sb.toString();
+    }
+
+    public int numberOfComments() {
+        return comments.size();
     }
 }
